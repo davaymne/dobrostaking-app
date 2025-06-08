@@ -1,0 +1,50 @@
+/* .wallet-adapter-button.wallet-adapter-button-trigger {
+  background: #6DC3B2 !important;
+  color: #fff !important;
+  border-radius: 16px !important;
+  font-size: 22px !important;
+  font-weight: 500 !important;
+  padding: 0 32px !important;
+  height: 56px !important;
+  display: flex !important;
+  align-items: center !important;
+  box-shadow: 0 2px 8px #6dc3b21a !important;
+  border: none !important;
+  transition: none !important;
+}
+
+.wallet-adapter-button.wallet-adapter-button-trigger svg {
+  font-size: 26px !important;
+  margin-right: 10px !important;
+} */
+
+.wallet-adapter-button.wallet-adapter-button-trigger {
+  background: #6DC3B2 !important;
+  color: #fff !important;
+  border-radius: 16px !important;      /* Rounded corners */
+  font-size: 14px !important;          /* Large font size */
+  font-family: inherit !important;     /* Use your app's font, or set a specific one */
+  font-weight: 600 !important;         /* Medium-bold font */
+  padding: 0 16px !important;          /* Horizontal padding */
+  height: 36px !important;             /* Button height */
+  min-width: 220px !important;         /* Optional: minimum width for a wide button */
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  box-shadow: 0 2px 8px #6dc3b21a !important;
+  border: none !important;
+  transition: none !important;
+  line-height: 1 !important;
+  letter-spacing: 0.01em !important;
+}
+
+.wallet-adapter-button.wallet-adapter-button-trigger svg {
+  font-size: 14px !important;          /* Icon size */
+  margin-right: 10px !important;       /* Space between icon and text */
+}
+
+.wallet-adapter-button.wallet-adapter-button-trigger span {
+  font-size: 14px !important;          /* Ensure text inside is also large */
+  font-family: inherit !important;
+  font-weight: 600 !important;
+}

@@ -24,7 +24,7 @@ export default function StakeCard() {
           bodyStyle={{ padding: 12 }}
         >
           <div style={{ display: 'flex', alignItems: 'center' }}>
-            <img src="/solana-logo.png" alt="SOL" style={{ height: 24, marginRight: 8 }} />
+            <img src="/sol-logo.svg" alt="SOL" style={{ height: 24, marginRight: 8 }} />
             <Text strong>You're staking</Text>
             <span style={{ flex: 1 }} />
             <Text strong>0.00</Text>

@@ -1,6 +1,9 @@
 // src/components/Header.jsx
-import { Layout, Menu, Button, Switch } from 'antd';
-import { WalletOutlined } from '@ant-design/icons';
+import '../wallet-button.css';
+import WalletBalance from './WalletBalance';
+import { WalletMultiButton } from '@solana/wallet-adapter-react-ui';
+import { Layout, Menu, Switch } from 'antd';
+
 
 const { Header } = Layout;
 
@@ -18,9 +21,8 @@ export default function AppHeader() {
         <Menu.Item key="more" style={{ color: '#FF7A00', fontWeight: 600 }}>More</Menu.Item>
       </Menu>
       <div style={{ display: 'flex', alignItems: 'center', gap: 16 }}>
-        <Button type="primary" icon={<WalletOutlined />} style={{ background: '#6DC3B2', borderColor: '#6DC3B2' }}>
-          Connect Wallet
-        </Button>
+      <WalletMultiButton> Connect Wallet </WalletMultiButton>
+        <WalletBalance />
         <Switch checkedChildren="🌞" unCheckedChildren="🌙" />
       </div>
     </Header>

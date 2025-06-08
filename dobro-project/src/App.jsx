@@ -3,6 +3,7 @@ import 'antd/dist/reset.css';
 import AppHeader from './components/Header';
 import StakeCard from './components/StakeCard';
 import AppFooter from './components/Footer';
+import './wallet-button.css';
 
 export default function App() {
   return (
